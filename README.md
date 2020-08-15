@@ -21,7 +21,7 @@ BEFAQ的框架结构如下图
 
 二、 详细介绍
 
-1、安装ES7.6.1和配套的kibana，配置ES的IK分词器和同义词功能，请参考我的博客：https://blog.csdn.net/weixin_37792714/article/details/108025200
+1、安装ES7.6.1和配套的kibana，配置ES的IK分词器和同义词功能，请参考博客：https://blog.csdn.net/weixin_37792714/article/details/108025200
 
 
 2、创建BEFAQ的虚拟环境
