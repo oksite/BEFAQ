@@ -1,9 +1,9 @@
-#一、 BEFAQ
+一、 BEFAQ
 
 BEFAQ(BERT Embedding FAQ) 开源项目是好好住面向FAQ集合的问答系统框架
 开发者可以使用BEFAQ系统快速构建和定制适用于特定业务场景的FAQ问答系统，并加速迭代和升级。
 
-##BEFAQ的优点有：
+BEFAQ的优点有：
 
 （1）使用了ES、Faiss、Annoy 作为召回引擎
 
@@ -14,24 +14,24 @@ BEFAQ(BERT Embedding FAQ) 开源项目是好好住面向FAQ集合的问答系统
 （4）支持多领域语料（同样的问题，不同的用户角色，可以得到不同的答案）
 
 
-##BEFAQ的框架结构如下图
+BEFAQ的框架结构如下图
 ![image](https://github.com/hhzrd/BEFAQ/blob/master/data/BEFAQ%20Framework.png)
 
 
 
-#二、 详细介绍
+二、 详细介绍
 
-##1、安装ES7.6.1和配套的kibana，配置ES的IK分词器和同义词功能，请参考博客：https://blog.csdn.net/weixin_37792714/article/details/108025200
+1、安装ES7.6.1和配套的kibana，配置ES的IK分词器和同义词功能，请参考博客：https://blog.csdn.net/weixin_37792714/article/details/108025200
 
 
-##2、创建BEFAQ的虚拟环境
+2、创建BEFAQ的虚拟环境
 
     conda create -n befaq python=3.6 
     source activate befaq
     进入BEFAQ的根目录，然后
     pip install -r requirements.txt
 
-##3、sentence-transformers 多语言预训练模型的下载
+3、sentence-transformers 多语言预训练模型的下载
 
     首先进入到项目的根目录，然后
     cd data/model
@@ -39,7 +39,7 @@ BEFAQ(BERT Embedding FAQ) 开源项目是好好住面向FAQ集合的问答系统
     unzip distiluse-base-multilingual-cased.zip
 
 
-##4、如何开启BEFAQ服务
+4、如何开启BEFAQ服务
 
     进入项目的根目录，然后
     cd es
@@ -83,7 +83,7 @@ BEFAQ(BERT Embedding FAQ) 开源项目是好好住面向FAQ集合的问答系统
     ]
 
 
-##5、BEFAQ的配置文件
+5、BEFAQ的配置文件
 
     es/stopwords4_process_question_dedup.txt 是BEFAQ的停用词表。
     es/userdict.txt  是BEFAQ的用户字典表。
@@ -91,7 +91,7 @@ BEFAQ(BERT Embedding FAQ) 开源项目是好好住面向FAQ集合的问答系统
     faq/befaq_conf.ini 是BEFAQ的配置文件。
 
 
-##6、如何开启BEFAQ 的联想词接口服务
+6、如何开启BEFAQ 的联想词接口服务
 
     如何想要启动根据当前输入联想问题的功能，支持多进程。
     进入项目根目录，然后
@@ -122,7 +122,7 @@ BEFAQ(BERT Embedding FAQ) 开源项目是好好住面向FAQ集合的问答系统
         }
     }
 
-#Authors
+Authors
 
 该项目的主要贡献者有:
 [肖轶超](https://github.com/xiaoyichao)（好好住）
@@ -131,12 +131,12 @@ BEFAQ(BERT Embedding FAQ) 开源项目是好好住面向FAQ集合的问答系统
 向泳州（好好住）
 辛少普（好好住）
 
-#参考文献：
+参考文献：
 
     百度AnyQ  https://github.com/baidu/AnyQ
     sentence-transformers https://github.com/UKPLab/sentence-transformers
     Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks https://arxiv.org/abs/1908.10084
 
-#Copyright and License
+Copyright and License
 
 BEFAQ is provided under the [Apache-2.0 license](https://github.com/baidu/AnyQ/blob/master/LICENSE).
