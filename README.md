@@ -4,7 +4,7 @@ BEFAQ(BERT Embedding FAQ) 开源项目是好好住面向FAQ集合的问答系统
 
 BEFAQ的优点有：
 
-（1）使用了ES、Faiss、Annoy 作为召回引擎
+（1）使用了Elasticsearch、Faiss、Annoy 作为召回引擎
 
 （2）使用了Sentence BERT 语意向量（Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks）
 
