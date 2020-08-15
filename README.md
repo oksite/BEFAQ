@@ -14,7 +14,7 @@ BEFAQ的优点有：
 
 
 BEFAQ的框架结构如下图
-![image](https://github.com/hhzrd/BEFAQ/blob/master/data/BEFAQ%20Framework.png)
+![image](https://github.com/hhzrd/BEFAQ/blob/master/image/BEFAQ%20Framework.png)
 
 
 
