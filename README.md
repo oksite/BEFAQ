@@ -122,9 +122,13 @@ Authors
 该项目的主要贡献者有:
 
 肖轶超（好好住）
+
 徐忠杰（好好住）
+
 王得祥（好好住）
+
 向泳州（好好住）
+
 辛少普（好好住）
 
 参考文献：
@@ -135,4 +139,4 @@ Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks https://arxiv.org
 
 Copyright and License
 
-BEFAQ is provided under the Apache-2.0 license.
+BEFAQ is provided under the [Apache-2.0 license](https://github.com/baidu/AnyQ/blob/master/LICENSE).
