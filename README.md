@@ -7,7 +7,8 @@ BEFAQ的优点有：
 （2）使用了Sentence BERT向量
 （3）对同义问题有更好的支持
 （4）支持多领域语料（同样的问题，不同的用户角色，可以得到不同的答案）
-
+BEFAQ Framework
+https://github.com/hhzrd/BEFAQ/blob/master/data/BEFAQ%20Framework.png
 
 (二)详细介绍
 1、安装ES7.6.1和配套的kibana，配置ES的IK分词器和同义词功能，请参考我的博客：https://blog.csdn.net/weixin_37792714/article/details/108025200
