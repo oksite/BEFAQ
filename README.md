@@ -1,7 +1,7 @@
 一、 BEFAQ
 
-BEFAQ(BERT Embedding FAQ) 开源项目是好好住面向FAQ集合的问答系统框架
-开发者可以使用BEFAQ系统快速构建和定制适用于特定业务场景的FAQ问答系统，并加速迭代和升级。
+BEFAQ(BERT Embedding FAQ) 开源项目是好好住面向FAQ集合的问答系统框架。
+开发者可以使用BEFAQ系统快速构建和定制适用于特定业务场景的FAQ问答系统。
 
 BEFAQ的优点有：
 
@@ -21,7 +21,7 @@ BEFAQ的框架结构如下图
 
 二、 详细介绍
 
-1、安装ES7.6.1和配套的kibana，配置ES的IK分词器和同义词功能，请参考博客：https://blog.csdn.net/weixin_37792714/article/details/108025200
+1、安装Es7.6.1和配套的kibana，配置Es的IK分词器和同义词功能，请参考博客：https://blog.csdn.net/weixin_37792714/article/details/108025200 如果已经安装过了这些，可以略过这一步。但是记得把同义词同步到你的Es中。
 
 
 2、创建BEFAQ的虚拟环境
@@ -85,10 +85,15 @@ BEFAQ的框架结构如下图
 
 5、BEFAQ的配置文件
 
+    项目根目录下的 data/线上用户反馈回复.xlsx 是QA数据的来源，其中的数据会被写入到Es中。
+    sheetname.conf 是读取Excel文档数据的配置文件。
     es/stopwords4_process_question_dedup.txt 是BEFAQ的停用词表。
     es/userdict.txt  是BEFAQ的用户字典表。
     es/es.ini 是BEFAQ关于ES的配置文件。
     faq/befaq_conf.ini 是BEFAQ的配置文件。
+    
+
+
 
 
 6、如何开启BEFAQ 的联想词接口服务
