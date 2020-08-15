@@ -9,7 +9,7 @@ BEFAQ的优点有：
 
 （2）使用了Sentence BERT 语意向量（Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks）
 
-（3）对同义问题有更好的支持
+（3）对同义问题有很好的支持
 
 （4）支持多领域语料（同样的问题，不同的用户角色，可以得到不同的答案）
 
