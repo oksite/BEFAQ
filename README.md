@@ -19,8 +19,7 @@
 
 ### 1、安装Es7.6.1和配套的kibana，配置Es的IK分词器和同义词功能
 
-请参考博客[Elasticsearch） 7.6.1安装教程](https://blog.csdn.net/weixin_37792714/article/details/108025200)进行安装。如果自己已经配置过Es，IK分词器和同义词功能，可以略过这一步。但是记得把同义词同步到你的Es中。
-<br>为了方便大家。相关文件的下载，都放在了百度网盘中，欢迎大家使用。链接:https://pan.baidu.com/s/1PxgINf6Q1UZBtcsYw6FU0w  密码:4q9h</br>
+请参考博客[Elasticsearch） 7.6.1安装教程](https://blog.csdn.net/weixin_37792714/article/details/108025200)进行安装。如果已经配置过Es、IK分词器和同义词功能，可以略过这一步。但是记得把同义词同步到你的Es中。为了方便大家。相关文件的下载，都放在了百度网盘中，欢迎大家使用。链接:https://pan.baidu.com/s/1PxgINf6Q1UZBtcsYw6FU0w  密码:4q9h
 
 
 ### 2、下载项目代码并创建BEFAQ的虚拟环境
@@ -135,9 +134,9 @@
 
 ## 参考文献：
 
-[1][百度AnyQ](https://github.com/baidu/AnyQ)
-[2][sentence-transformers](https://github.com/UKPLab/sentence-transformers)
-[3][Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks](https://arxiv.org/abs/1908.10084)
+<br>[1][百度AnyQ](https://github.com/baidu/AnyQ)</br>
+<br>[2][sentence-transformers](https://github.com/UKPLab/sentence-transformers)</br>
+<br>[3][Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks](https://arxiv.org/abs/1908.10084)</br>
 
 ## Copyright and License
 
